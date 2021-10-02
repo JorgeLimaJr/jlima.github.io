@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Interactive Resume | Jorge Lima</title>
+        <link rel="shortcut icon" href="http://jorgelima.me/imgs/favicon.png" type="image/png" />
+        <meta name="description" content="Interactive Resume | Jorge Lima" /> 
+        <meta name="keywords" content="Designer, Design, Portifolio, Tv Globo, Globo, BBB, Big Brother Brasil, Demoreel, Animação, Ilustração, Developer, Web Design, Mobile, Games, Jogos, Motion Design, Cannes, Lion, Prêmio, Art Director, Diretor de Arte, Resume, Interactive, Resume Interactive, Anima Mundi, Concept, HTML5, css, javascript, js" />
+        <meta property="og:site_name" content="Jorge Lima" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://jorgelima.me/imgs/img-compartilhamento.jpg" />                      
+        <meta property="og:url" content="http://jorgelima.me/imgs/index.html">  
+        <meta property="og:title" content="Interactive Resume | Jorge Lima" />
+        <meta property="og:description" content="Conheça minha história!" />
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@jorgelimajunior">
+        <meta name="twitter:creator" content="@jorgelimajunior">
+        <meta name="twitter:title" content="Interactive Resume | Jorge Lima">
+        <meta name="twitter:description" content="Conheça minha história!">
+        <meta name="twitter:image:src" content="http://jorgelima.me/imgs/img-compartilhamento.jpg">
+
+        <link rel="stylesheet" href="style.4c33fb0646a69e9fbef5.css?bf3fe7faa46344c53d34">
+    </head>
+    <body>
+        <div id="prev">
+                <img src="src/images/jobs/job-3/thumb.png"/>
+                <img src="src/images/jobs/job-4/thumb.png"/>
+                <img src="src/images/jobs/job-5/thumb.png"/>
+        </div>
+        <main>
+            <canvas id="myCanvas"></canvas>
+            <!-- <div id="wireframe"></div> -->
+
+            <section id="containerSteps">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div id="step0">
+                                <h3>Hello</h3>
+                                <h1>I'm Product Designer</h1>
+                                <p>I’ve been working to understand people behavior, focused on creating meaningful experiences to them through design.</p>
+                                <!-- <svg viewBox="0 0 100 100"><use xlink:href="src/images/icons/button_next.svg#button_next"></use></svg> -->
+                                <!-- <svg viewBox="0 0 209 100"><use xlink:href="src/images/icons/button_start.svg#button_start"></use></svg> -->
+                                <!-- <div id="button-navegation"></div> -->
+                                <button id="buttonStart"><span> START &nbsp; ›</span></button>
+                            </div>
+                            <div id="step1">
+                                <h3>I research to understand</h3>
+                                <h1>I love data</h1>
+                                <p>I do user-centered design and I use analytical data to guide me through this process.</p>
+                                <!-- <p>I believe in a team, although to understand the pains of the developers and facilitate the handoffs process I learned development. Now I prototype rapidly in HTML, CSS, JS.</p> -->
+                                <ul class="photo-gallery">
+                                    <li>
+                                        <svg viewBox="0 0 60 60"><use xlink:href="src/images/icons/icon_expand.svg#icon_expand"></use></svg>
+                                        <span>Job 1</span>
+                                    </li>
+                                    <!-- <li><span>Job 2</span></li>
+                                    <li><span>Job 3</span></li> -->
+                                </ul>
+                            </div>
+                            <div id="step2">
+                                <h3>I'm not a unicorn</h3>
+                                <h1>I'm curious</h1>
+                                <p>To understand developers pains and facilitate the handoffs process I learned development in html, css and js. Now I make games for improve this skill.</p>
+                                <ul class="photo-gallery">
+                                    <li>
+                                        <svg viewBox="0 0 60 60"><use xlink:href="src/images/icons/icon_expand.svg#icon_expand"></use></svg>
+                                        <span>Job 2</span>
+                                    </li>
+                                    <!-- <li><span>Job 2</span></li>
+                                    <li><span>Job 3</span></li> -->
+                                </ul>
+                            </div>
+                            <div id="step3">
+                                <h3>I love</h3>
+                                <h1>UX Motion</h1>
+                                <p>I use microinteractions to communicate, solve problems and create meaningful experiences for the users.</p>
+                                <ul class="photo-gallery">
+                                    <li>
+                                        <svg viewBox="0 0 60 60"><use xlink:href="src/images/icons/icon_expand.svg#icon_expand"></use></svg>
+                                        <span>Job 3</span>
+                                    </li>
+                                    <!-- <li><span>Job 2</span></li>
+                                    <li><span>Job 3</span></li> -->
+                                </ul>
+                            </div>
+                            <div id="step4">
+                                <h3>That's a bit about me</h3>
+                                <h1>Let's talk</h1>
+                                <p>I'd love to hear you! If you want to see more jobs check out my behance or my Linkedin profile.</p>
+                                <button id="behance"><span> MORE JOBS </span></button>
+                                <button id="resume"><span> RESUMÉ</span></button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="controlNavegationSteps">
+                <button id="buttonPrev"><span>‹ &nbsp; PREV</span></button>
+                <button id="buttonNext"><span>NEXT &nbsp; ›</span></button>
+            </section>
+
+            <section id="page-control">
+                <nav>
+                    <ul>
+                        <li class="active"><span>Home</span></li>
+                        <li><span>UX Case 01</span></li>
+                        <li><span>UX Case 02</span></li>
+                        <li><span>UX Case 03</span></li>
+                        <li><span>Resume</span></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="container-menu">
+                <nav>
+                    <ul>
+                        <li class="active"><span>Home</span></li>
+                        <li><span>UX Case 01</span></li>
+                        <li><span>UX Case 02</span></li>
+                        <li><span>UX Case 03</span></li>
+                        <li><span>Resume</span></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <header class="section_header">
+                <div id="icon-menu"></div>
+                <nav>
+                    <ul id="menu-social-list">
+                        <li id="head-resume"><svg viewBox="0 0 60 60"><use xlink:href="src/images/icons/icon_resume.svg#icon_resume"></use></svg></li>
+                        <li id="head-linkedin"><svg viewBox="0 0 60 60"><use xlink:href="src/images/icons/icon_linkedin.svg#icon_linkedin"></use></svg></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section id="container-jobs">
+                <div id="container-jobs-insert-data">
+                    <!-- DELETAR -->
+
+                    <!-- DELETAR -->
+
+                </div>
+                <!-- ENTRA CONTEUNDO -->
+                <div id="close-jobs"><img src="src/images/icons/button_close.svg"/><div>
+            </section>
+            <section id="container-transition"></section>
+            
+            <div id="loading">
+                <div id="loading-menu">
+                    <!-- <img src="src/images/icons/bars.svg"/> -->
+                <div>
+            </div>
+        </main>
+        <script src="main.de277d576c88943ea297.js?bf3fe7faa46344c53d34"></script>
+    </body>
+</html>
