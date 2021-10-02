@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Brown';
-  src: url("/src/fonts/lineto-brown-bold.woff2") format("woff2"), url("/src/fonts/lineto-brown-bold.woff") format("woff"), url("/src/fonts/lineto-brown-bold.ttf") format("opentype");
+  src: url("src/fonts/lineto-brown-bold.woff2") format("woff2"), url("src/fonts/lineto-brown-bold.woff") format("woff"), url("src/fonts/lineto-brown-bold.ttf") format("opentype");
   font-weight: bold;
   font-style: normal;
   font-display: auto; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("/src/fonts/lineto-brown-regular.woff2") format("woff2"), url("/src/fonts/lineto-brown-regular.woff") format("woff"), url("/src/fonts/lineto-brown-regular.ttf") format("opentype");
+  src: url("src/fonts/lineto-brown-regular.woff2") format("woff2"), url("src/fonts/lineto-brown-regular.woff") format("woff"), url("src/fonts/lineto-brown-regular.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: auto; }
@@ -166,13 +166,13 @@ canvas {
   #loading #loading-menu {
     width: 100%;
     height: 100%;
-    background-image: url("/src/images/wireframe_mobile.png");
+    background-image: url("src/images/wireframe_mobile.png");
     animation: pulse 1s infinite;
     -webkit-background-size: cover;
     background-size: cover; }
     @media screen and (min-width: 55em) and (min-height: 35em) {
       #loading #loading-menu {
-        background-image: url("/src/images/wireframe_web.png"); } }
+        background-image: url("src/images/wireframe_web.png"); } }
 
 @keyframes pulse {
   0% {
@@ -324,7 +324,7 @@ section#container-transition {
   -webkit-transition-timing-function: ease-out;
   border-radius: 10px;
   border: none;
-  background-image: url("/src/images/jobs/job-3/thumb.png");
+  background-image: url("src/images/jobs/job-3/thumb.png");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -353,11 +353,11 @@ section#containerSteps {
     left: 0;
     width: 100%; }
   section#containerSteps #step1 ul.photo-gallery li {
-    background-image: url("/src/images/jobs/job-3/thumb.png"); }
+    background-image: url("src/images/jobs/job-3/thumb.png"); }
   section#containerSteps #step2 ul.photo-gallery li {
-    background-image: url("/src/images/jobs/job-4/thumb.png"); }
+    background-image: url("src/images/jobs/job-4/thumb.png"); }
   section#containerSteps #step3 ul.photo-gallery li {
-    background-image: url("/src/images/jobs/job-5/thumb.png"); }
+    background-image: url("src/images/jobs/job-5/thumb.png"); }
   section#containerSteps ul.photo-gallery {
     width: initial;
     height: calc(100vh - 350px);
@@ -609,11 +609,11 @@ section#container-jobs {
   section#container-jobs div#close-jobs:hover {
     opacity: 0.8; }
   section#container-jobs #cover3 {
-    background-image: url("/src/images/jobs/job-3/thumb.png"); }
+    background-image: url("src/images/jobs/job-3/thumb.png"); }
   section#container-jobs #cover4 {
-    background-image: url("/src/images/jobs/job-4/thumb.png"); }
+    background-image: url("src/images/jobs/job-4/thumb.png"); }
   section#container-jobs #cover5 {
-    background-image: url("/src/images/jobs/job-5/thumb.png"); }
+    background-image: url("src/images/jobs/job-5/thumb.png"); }
   section#container-jobs .cover {
     background-position: 50% 50%;
     background-repeat: no-repeat;
